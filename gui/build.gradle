@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'com.squareup.retrofit2', name: 'retrofit', version: '2.0.2'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    
+}
